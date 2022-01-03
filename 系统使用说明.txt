@@ -1,0 +1,14 @@
+1.在idea导入erp项目
+	菜单->File->New->Project From Existing Sources
+	进入要导入的项目中的目录,并选中 pom.xml
+	点击OK，然后后面就一路 Next 就行了
+	因为是 maven 项目，所以在本地库没有 springboot 相关 jar 的前提下， idea 就会去进	行下载。一旦下载完成，就会展现为 如图所示的maven 风格的项目结构。
+
+2.在MySQL管理器中导入erp.sql文件就能够创建数据库
+
+3.浏览器输入本地的8004端口http://localhost:8004/sys/login
+系统登陆
+	用户名：system
+	密码：123456
+	
+
